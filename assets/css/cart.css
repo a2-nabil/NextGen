@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* cart page css start  */
 .page-id-68 #content {
   background: url("https://nextgenlearning.org.uk/wp-content/uploads/2024/02/Group-1000004504-1-convert.io_.webp");
   background-repeat: no-repeat;
@@ -150,6 +157,7 @@ table.woocommerce-cart-form__contents th {
   border-radius: 15px;
   color: #fff;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .woocommerce-cart .cart-collaterals .cart_totals h2 {
   margin: -25px -25px 0;
@@ -254,3 +262,51 @@ table.woocommerce-cart-form__contents th {
     width: 80%;
   }
 }
+
+/* custom cart box css  */
+.a2n-cart_box {
+  background: #000243;
+  padding: 37px 15px;
+  text-align: center;
+  border-radius: 15px;
+}
+.a2n-cart_box .a2n_start h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  margin: 16px 0 25px;
+}
+.a2n_c {
+  color: #ffe39e;
+}
+.a2n-cart_box .a2n_end {
+  border-top: 1px solid #ebebeb80;
+}
+.a2n-cart_box .a2n-icon__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 25px 0 18px;
+}
+.a2n-cart_box .a2n-icon__list h4 {
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.a2n-cart_box .a2n-image__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 9px;
+  row-gap: 18px;
+}
+/* cart page css end  */
